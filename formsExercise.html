@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<h1>Customer Experience Survey</h1>
+<body>
+  <form>
+      <label for="storeNumber">Store Number</label>
+    <select id="storeNumber">
+        <option>3109</option>
+        <option>2543</option>
+        <option>0987</option>
+    </select>
+    <br>
+    <fieldset>
+        <legend>When you visited</legend>
+        <label for="dateVisited">Date Visited</label>
+        <input type="date" value="2020-month-day" id="dateVisited">
+        <label for="time">Time</label>
+        <input type="time" id="time">
+    </fieldset>
+    First Name
+    <input type="text" placeholder="John" required>
+    Last Name
+    <input type="text" placeholder="Doe" required>
+    <br>
+    <label for="userEmail">Email:</label>
+    <input type="email" id="userEmail" placeholder="your email" required>
+    <br>
+    <label for="userMale">Male</label>
+    <input type="radio" name="gender" id="userMale">
+    <label for="userFemale">Female</label>
+    <input type="radio" name="gender" id="userFemale">
+    <label for="other">Other</label>
+    <input type="radio" name="gender" id="other">
+    <br>
+    <label for="experience">Tell us about your experience:</label>
+    <br>
+    <textarea name="" id="" cols="20" rows="2"></textarea>
+    <br>
+    Times visited in the last month:
+    <label>
+      <input type="number">  
+    </label>
+    <br>
+    <label for="userCheckbox">Please check the box if you would be willing to be contacted about your experience</label>
+    <input type="checkbox" id="userCheckbox">
+    <br>
+    <input type="reset">
+    <input type="submit">
+  </form>  
+    
+
+    
+</body>
+</html>
